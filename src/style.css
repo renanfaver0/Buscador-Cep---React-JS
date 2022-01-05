@@ -1,3 +1,4 @@
+/* Estiização container */
 .container {
     height: 100vh;
     display: flex;
@@ -7,6 +8,7 @@
     background: linear-gradient(#121212, #814c35);
 }
 
+/* Estiização titulo principal */
 .titulo-principal {
     font-size: 85px;
     color: #FFF;
@@ -14,21 +16,23 @@
 }
 
 @keyframes superTitle {
-    from{
+    from {
         transform: rotateX(90deg);
     }
+
     to {
         transform: rotateX(0deg);
     }
 }
 
+/* Estiização container campo pesquisar */
 .containerInput {
-    background-color: rgba(255,255,255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 15px;
     margin: 34px 0;
     display: flex;
     border-radius: 9px;
-    box-shadow: 1px 3px 8px rgba(0,0,0, 0.5);
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
 .containerInput input {
@@ -44,6 +48,7 @@
     color: #F1F1F1;
 }
 
+/* Estiização botão de pesquisa */
 .botao-procurar {
     background-color: transparent;
     border: 0;
@@ -58,6 +63,7 @@
     transform: scale(1.2);
 }
 
+/* Estiização conteúdo principal */
 .principal {
     display: flex;
     justify-content: center;
@@ -78,12 +84,13 @@
     font-weight: bold;
 }
 
+/* Media Querys utilizadas */
 @media (max-width: 620px) {
-    .titulo-principal{
+    .titulo-principal {
         font-size: 60px;
     }
 
-    .principal h2{
+    .principal h2 {
         font-size: 28px;
     }
 
@@ -92,4 +99,3 @@
         min-height: 250px;
     }
 }
-
